@@ -1,37 +1,65 @@
 body{
-
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper{
 	widht: 90%;
 	height: auto;
-	margin :12px;
+	margin: 0 auto;
 	padding: 12px;
 	background: teal;
 
 }
-#title{
 
+#title{
+	font-size: 48px;
 }
 
 #platillos{
-
+	width: 100%;
+	background: blue;
 }
 
 #one{
-
+	width: 31%;
+	background: blue;
+	display: inline-block;
+	padding: 12px;
 
 }
 
 #two{
+	width: 31%;
+	background: blue;
+	display: inline-block;
+	padding: 12px;
 
 }
 
 #three{
-
+	width: 31%;
+	background: blue;
+	display: inline-block;
 }
 
-.circle-image{
-
+#one.circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: blue;
 }
 
+#two.circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: red;
+}
+
+#three.circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: yellow;
+}
